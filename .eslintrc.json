@@ -1,0 +1,19 @@
+{
+  "env": {
+      "browser": true,
+      "es6": true
+  },
+  "extends": "airbnb",
+  "rules": {
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "react/button-has-type": "off"
+  }
+}

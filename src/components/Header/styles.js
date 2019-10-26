@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-  height: 10vh;
+  height: 80px;
   background: #202225;
   grid-column-start: 2;
   grid-column-end: 3;

@@ -4,9 +4,12 @@ import { FaUserCircle, FaUserPlus } from 'react-icons/fa';
 
 import { Container } from './styles';
 
-const Menu = () => (
-  <Container>
-    <nav>
+const Menu = ({ menu }) => (
+  <Container menu={menu}>
+    <div className="superiorMenu">
+      <Link to="/login" className="login-mobile">
+        <FaUserCircle />
+      </Link>
       <ul>
         <Link to="/login">
           <FaUserCircle />
@@ -17,7 +20,7 @@ const Menu = () => (
           CADASTRE-SE
         </Link>
       </ul>
-    </nav>
+    </div>
   </Container>
 );
 

@@ -7,4 +7,10 @@ export const Container = styled.div`
   grid-template-columns: auto 1fr;
   grid-template-rows: 10vh 90vh;
   background-color: #ecf1f8;
+
+  > div {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 50px;
+  }
 `;
